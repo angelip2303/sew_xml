@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="https://www.uniovi.es" elementFormDefault="qualified" targetNamespace="https://www.uniovi.es" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="arbolGenealogico">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="persona" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="persona">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="persona" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="persona" />
+				<xs:element minOccurs="1" maxOccurs="2" ref="coordenada" />
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="fotografia" />
+				<xs:element minOccurs="0" maxOccurs="3" ref="video" />
+			</xs:sequence>
+			<xs:attribute name="nombre" type="xs:string" use="required" />
+			<xs:attribute name="apellidos" type="xs:string" use="required" />
+			<xs:attribute name="fechaNacimiento" type="xs:date" use="required" />
+			<xs:attribute name="fechaFallecimiento" type="xs:date" />
+			<xs:attribute name="comentarios" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="coordenada">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="lugar" type="xs:string" use="required" />
+					<xs:attribute name="tipo" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:NMTOKEN">
+								<xs:enumeration value="nacimiento" />
+								<xs:enumeration value="fallecimiento" />
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+					<xs:attribute name="longitud" type="xs:decimal" use="required" />
+					<xs:attribute name="latitud" type="xs:decimal" use="required" />
+					<xs:attribute name="altitud" type="xs:integer" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="fotografia">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="url" type="xs:string" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="video">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="url" type="xs:string" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,19 @@
+<!ELEMENT arbolGenealogico (persona)>
+<!ELEMENT persona (persona?, persona?, coordenada*, fotografia+, video*)>
+<!ELEMENT coordenada (#PCDATA)>
+<!ELEMENT fotografia (#PCDATA)>
+<!ELEMENT video (#PCDATA)>
+<!ATTLIST persona
+          nombre 			 CDATA 	 #REQUIRED
+          apellidos 		 CDATA 	 #REQUIRED
+          fechaNacimiento 	 NMTOKEN #REQUIRED
+          fechaFallecimiento NMTOKEN #IMPLIED
+          comentarios 		 CDATA 	 #REQUIRED>
+<!ATTLIST coordenada
+          lugar 	CDATA 	                       #REQUIRED
+          tipo      (nacimiento | fallecimiento)   #REQUIRED
+          longitud 	NMTOKEN                        #REQUIRED
+          latitud 	NMTOKEN                        #REQUIRED
+          altitud 	NMTOKEN                        #REQUIRED>
+<!ATTLIST fotografia url CDATA #REQUIRED>
+<!ATTLIST video url CDATA #REQUIRED>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arbolGenealogico xmlns="https://www.uniovi.es"
+				  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				  xsi:schemaLocation="https://www.uniovi.es ../../Ejercicio-1/Tarea-5/arbolGenealogico_comp.xsd">
+	<persona nombre="Ángel"
+			 apellidos="Iglesias Préstamo"
+			 fechaNacimiento="2000-03-23"
+			 comentarios="soy yo">
+		<persona nombre="David"
+				 apellidos="Iglesias Serrano"
+				 fechaNacimiento="1963-07-23"
+				 comentarios="es mi padre">
+			<persona nombre="María Dolores"
+					 apellidos="Serrano Menéndez"
+					 fechaNacimiento="1941-02-14"
+					 comentarios="es mi abuela-paterna">
+					 <persona nombre="Otilia"
+							  apellidos="Menéndez Viña"
+							  fechaNacimiento="1915-09-07"
+							  fechaFallecimiento="1999-09-28"
+							  comentarios="es mi bisabuela-paterna-materna">
+						<coordenada lugar="Avilés"
+									tipo="nacimiento"
+									longitud="-5.89922"
+									latitud="43.54533"
+									altitud="29">
+						</coordenada>
+						<coordenada lugar="Avilés"
+									tipo="fallecimiento"
+									longitud="-5.91428"
+									latitud="43.54039"
+									altitud="139">
+						</coordenada>
+						<fotografia url="bisabuela-paterna-materna.jpg"> </fotografia>
+					</persona>
+					<persona nombre="Marcelino"
+							 apellidos="Serrano Muñíz"
+							 fechaNacimiento="1912-12-12"
+							 fechaFallecimiento="1971-05-27"
+							 comentarios="es mi bisabuelo-paterno-materno">
+						<coordenada lugar="Candás"
+									tipo="nacimiento"
+									longitud="-5.76614"
+									latitud="43.59398"
+									altitud="35">
+						</coordenada>
+						<coordenada lugar="Avilés"
+									tipo="fallecimiento"
+									longitud="-5.91934"
+									latitud="43.56080"
+									altitud="139">
+						</coordenada>
+						<fotografia url="bisabuelo-paterno-materno.jpg"> </fotografia>
+					</persona>
+				<coordenada lugar="Candás"
+							tipo="nacimiento"
+							longitud="-5.7681206"
+							latitud="43.5894038"
+							altitud="35">
+				</coordenada>
+				<fotografia url="abuela-paterna.jpg"> </fotografia>
+			</persona>
+			<persona nombre="David"
+					 apellidos="Iglesias Vallina"
+ 					 fechaNacimiento="1937-06-07"
+					 fechaFallecimiento="1981-05-24"
+					 comentarios="es mi abuelo-paterno">
+				<persona nombre="Emilio"
+						 apellidos="Iglesias"
+						 fechaNacimiento="1905-03-09"
+						 fechaFallecimiento="1945-04-30"
+						 comentarios="es mi bisabuelo-paterno-paterno">
+					<coordenada lugar="Gijón"
+								tipo="nacimiento"
+								longitud="-5.65567"
+								latitud="43.52622"
+								altitud="3">
+					</coordenada>
+					<coordenada lugar="Gijón"
+								tipo="fallecimiento"
+								longitud="-5.63730"
+								latitud="43.53650"
+								altitud="2">
+					</coordenada>
+					<fotografia url="bisabuelo-paterno-paterno.jpg"> </fotografia>
+				</persona>
+				<coordenada lugar="Gijón"
+							tipo="nacimiento"
+							longitud="-5.67910"
+							latitud="43.54326"
+							altitud="3">
+				</coordenada>
+				<coordenada lugar="Avilés"
+							tipo="fallecimiento"
+							longitud="-5.92263"
+							latitud="43.54409"
+							altitud="10">
+				</coordenada>
+				<fotografia url="abuelo-paterno1.jpg"> </fotografia>
+				<fotografia url="abuelo-paterno2.jpg"> </fotografia>
+				<video url="abuelo-paterno.mp4"> </video>
+			</persona>
+			<coordenada lugar="Avilés"
+						tipo="nacimiento"
+						longitud="-6.0346200"
+						latitud="43.5635700"
+						altitud="139">
+			</coordenada>
+			<fotografia url="padre.jpg"> </fotografia>
+			<video url="padre.mp4"> </video>
+		</persona>
+		<persona nombre="María Dolores"
+				 apellidos="Préstamo Díaz"
+				 fechaNacimiento="1960-02-22"
+				 comentarios="es mi madre">
+				<persona nombre="Guadalupe"
+						apellidos="Díaz Fernández"
+						fechaNacimiento="1918-03-21"
+						fechaFallecimiento="2010-09-21"
+						comentarios="es mi abuela-materna">
+						<persona nombre="María Dolores"
+								apellidos="Fernández"
+								fechaNacimiento="1891-05-01"
+								fechaFallecimiento="1918-09-04"
+								comentarios="es mi bisabuela-materna-materna">
+							<coordenada lugar="Avilés"
+										tipo="nacimiento"
+										longitud="-5.93063"
+										latitud="43.55748"
+										altitud="20">
+							</coordenada>
+							<coordenada lugar="Avilés"
+										tipo="fallecimiento"
+										longitud="-5.93597"
+										latitud="43.55287"
+										altitud="45">
+							</coordenada>
+							<fotografia url="bisabuela-materna-materna.jpg"> </fotografia>
+						</persona>
+						<persona nombre="José"
+								apellidos="Díaz"
+								fechaNacimiento="1892-06-25"
+								fechaFallecimiento="1967-03-16"
+								comentarios="es mi bisabuelo-materno-materno">
+							<coordenada lugar="Avilés"
+										tipo="nacimiento"
+										longitud="-5.92327"
+										latitud="43.55278"
+										altitud="43">
+							</coordenada>
+							<coordenada lugar="Avilés"
+										tipo="nacimiento"
+										longitud="-5.92970"
+										latitud="43.54674"
+										altitud="54">
+							</coordenada>
+							<fotografia url="bisabuelo-paterno-materno.jpg"> </fotografia>
+						</persona>
+					<coordenada lugar="Avilés"
+								tipo="nacimiento"
+								longitud="-5.92177"
+								latitud="43.55833"
+								altitud="3">
+					</coordenada>
+					<coordenada lugar="Avilés"
+								tipo="fallecimiento"
+								longitud="-5.92456"
+								latitud="43.55681"
+								altitud="4">
+					</coordenada>
+					<fotografia url="abuela-materna.jpg"> </fotografia>
+				</persona>
+				<persona nombre="Ángel"
+						 apellidos="Préstamo Cabranes"
+						 fechaNacimiento="1913-02-01"
+						 fechaFallecimiento="1959-12-25"
+						 comentarios="es mi abuelo-materno">
+					<persona nombre="Ángela"
+							 apellidos="Cabranes"
+							 fechaNacimiento="1888-09-08"
+							 fechaFallecimiento="1940-02-27"
+							 comentarios="es mi bisabuela-materna-paterna">
+						<coordenada lugar="Torazo"
+									tipo="nacimiento"
+									longitud="-5.40362"
+									latitud="43.39448"
+									altitud="410">
+						</coordenada>
+						<coordenada lugar="Torazo"
+									tipo="fallecimiento"
+									longitud="-5.40258"
+									latitud="43.39415"
+									altitud="420">
+						</coordenada>
+						<fotografia url="bisabuela-materna-paterna.jpg"> </fotografia>
+					</persona>
+					<persona nombre="Jesús"
+							 apellidos="Préstamo"
+							 fechaNacimiento="1892-02-02"
+							 fechaFallecimiento="1961-02-02"
+							 comentarios="es mi bisabuelo-materno-paterno">
+						<coordenada lugar="Torazo"
+									tipo="nacimiento"
+									longitud="-5.39995"
+									latitud="43.39465"
+									altitud="415">
+						</coordenada>
+						<coordenada lugar="Torazo"
+									tipo="fallecimiento"
+									longitud="-5.39995"
+									latitud="43.39507"
+									altitud="410">
+						</coordenada>
+						<fotografia url="bisabuelo-materno-paterno.jpg"> </fotografia>
+						<video url="bisabuelo-materno-paterno.mp4"> </video>
+					</persona>
+					<coordenada lugar="Torazo"
+								tipo="nacimiento"
+								longitud="-5.39995"
+								latitud="43.39507"
+								altitud="410">
+					</coordenada>
+					<coordenada lugar="Avilés"
+								tipo="fallecimiento"
+								longitud="-5.92600"
+								latitud="43.54995"
+								altitud="129">
+					</coordenada>
+					<fotografia url="abuelo-materno.jpg"> </fotografia>
+				</persona>
+				<coordenada lugar="Avilés"
+							tipo="nacimiento"
+							longitud="-5.92557"
+							latitud="43.54798"
+							altitud="119"> </coordenada>
+				<fotografia url="madre.jpg"> </fotografia>
+			</persona>
+		<coordenada lugar="Avilés"
+					tipo="nacimiento"
+					longitud="-5.93339"
+					latitud="43.55869"
+					altitud="139">
+		</coordenada>
+		<fotografia url="angel.jpg"> </fotografia>
+	</persona>
+</arbolGenealogico>

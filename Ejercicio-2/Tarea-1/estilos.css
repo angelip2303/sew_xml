@@ -1,0 +1,50 @@
+/*Especificidad: 001*/
+body {
+    font-family: 'Courier New', Courier, monospace;
+
+    color: #f8f8f2;
+    background-color: #282a36;
+}
+
+/*Especificidad: 001*/
+h1 {
+    text-align: center;
+    padding: 1em;
+}
+
+/*Especificidad: 001*/
+ul {
+    padding: 1em;
+    list-style: none;
+}
+
+/*Especificidad: 001*/
+li {
+    background-color: #44475a;
+    padding: 1em;
+}
+
+/*Especificidad: 011*/
+li:first-child {
+    border: 0.2em solid #f8f8f2;
+}
+
+/*Especificidad: 011*/
+li:last-child {
+    border: 0.2em solid #8be9fd;
+}
+
+/*Especificidad: 002*/
+li img {
+    width: 10em;
+    height: 10em;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+/*Especificidad: 002*/
+li video {
+    width: 100%;
+}

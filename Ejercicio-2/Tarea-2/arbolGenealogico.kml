@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name> Árbol Genealógico - Lugares de nacimento y defunción </name>
+<open>1</open>
+<Placemark>
+<name> Lugar de nacimiento de Ángel Iglesias Préstamo </name>
+<description> Nació el día: 2000-03-23 </description>
+<Point>
+<coordinates>-5.933390,43.558690,139</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de nacimiento de David Iglesias Serrano </name>
+<description> Nació el día: 1963-07-23 </description>
+<Point>
+<coordinates>-6.034620,43.563570,139</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de nacimiento de María Dolores Serrano Menéndez </name>
+<description> Nació el día: 1941-02-14 </description>
+<Point>
+<coordinates>-5.768121,43.589404,35</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de nacimiento de Otilia Menéndez Viña </name>
+<description> Nació el día: 1915-09-07 </description>
+<Point>
+<coordinates>-5.899220,43.545330,29</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de fallecimiento de Otilia Menéndez Viña </name>
+<description> Falleció el día: 1999-09-28 </description>
+<Point>
+<coordinates>-5.914280,43.540390,139</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de nacimiento de Marcelino Serrano Muñíz </name>
+<description> Nació el día: 1912-12-12 </description>
+<Point>
+<coordinates>-5.766140,43.593980,35</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de fallecimiento de Marcelino Serrano Muñíz </name>
+<description> Falleció el día: 1971-05-27 </description>
+<Point>
+<coordinates>-5.919340,43.560800,139</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de nacimiento de David Iglesias Vallina </name>
+<description> Nació el día: 1937-06-07 </description>
+<Point>
+<coordinates>-5.679100,43.543260,3</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de fallecimiento de David Iglesias Vallina </name>
+<description> Falleció el día: 1981-05-24 </description>
+<Point>
+<coordinates>-5.922630,43.544090,10</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de nacimiento de Emilio Iglesias </name>
+<description> Nació el día: 1905-03-09 </description>
+<Point>
+<coordinates>-5.655670,43.526220,3</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de fallecimiento de Emilio Iglesias </name>
+<description> Falleció el día: 1945-04-30 </description>
+<Point>
+<coordinates>-5.637300,43.536500,2</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de nacimiento de María Dolores Préstamo Díaz </name>
+<description> Nació el día: 1960-02-22 </description>
+<Point>
+<coordinates>-5.925570,43.547980,119</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de nacimiento de Guadalupe Díaz Fernández </name>
+<description> Nació el día: 1918-03-21 </description>
+<Point>
+<coordinates>-5.921770,43.558330,3</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de fallecimiento de Guadalupe Díaz Fernández </name>
+<description> Falleció el día: 2010-09-21 </description>
+<Point>
+<coordinates>-5.924560,43.556810,4</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de nacimiento de María Dolores Fernández </name>
+<description> Nació el día: 1891-05-01 </description>
+<Point>
+<coordinates>-5.930630,43.557480,20</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de fallecimiento de María Dolores Fernández </name>
+<description> Falleció el día: 1918-09-04 </description>
+<Point>
+<coordinates>-5.935970,43.552870,45</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de nacimiento de José Díaz </name>
+<description> Nació el día: 1892-06-25 </description>
+<Point>
+<coordinates>-5.923270,43.552780,43</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de nacimiento de José Díaz </name>
+<description> Nació el día: 1892-06-25 </description>
+<Point>
+<coordinates>-5.929700,43.546740,54</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de nacimiento de Ángel Préstamo Cabranes </name>
+<description> Nació el día: 1913-02-01 </description>
+<Point>
+<coordinates>-5.399950,43.395070,410</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de fallecimiento de Ángel Préstamo Cabranes </name>
+<description> Falleció el día: 1959-12-25 </description>
+<Point>
+<coordinates>-5.926000,43.549950,129</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de nacimiento de Ángela Cabranes </name>
+<description> Nació el día: 1888-09-08 </description>
+<Point>
+<coordinates>-5.403620,43.394480,410</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de fallecimiento de Ángela Cabranes </name>
+<description> Falleció el día: 1940-02-27 </description>
+<Point>
+<coordinates>-5.402580,43.394150,420</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de nacimiento de Jesús Préstamo </name>
+<description> Nació el día: 1892-02-02 </description>
+<Point>
+<coordinates>-5.399950,43.394650,415</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name> Lugar de fallecimiento de Jesús Préstamo </name>
+<description> Falleció el día: 1961-02-02 </description>
+<Point>
+<coordinates>-5.399950,43.395070,410</coordinates>
+</Point>
+</Placemark>
+
+
+</Document>
+</kml>
+    
